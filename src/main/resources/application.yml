@@ -1,0 +1,6 @@
+spring:
+  config:
+    import: optional:configserver:http://10.50.12.52:8080
+    # import: optional:configserver:http://xmess-config-service.jelastic.regruhosting.ru
+  application:
+    name: xmess-messaging-service
